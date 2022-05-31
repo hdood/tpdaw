@@ -1,0 +1,178 @@
+body{
+
+    background-color: #4b5056;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+   
+}
+.logged-in{ 
+        text-align: center;
+    display: inline-block;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin-left: 0.7cm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    padding: 0.4cm;
+    top: 3mm;
+    right: 2mm;
+    width:5 cm ;
+    box-shadow: 2px 1px 5px #112235;
+}
+
+#navbar{
+    
+
+    position: relative;
+    top: 0;
+    height: 2cm;
+    width: 97%;
+    background-color: #616972;
+    box-shadow: 2px 1px 5px black;
+    float: left;
+    border-radius: 25px;
+    left: 2mm;
+    
+
+}
+#main {
+    display: inline-block;
+    color: white ; 
+    position: relative; 
+    left: 0.8cm;
+        
+    bottom: 5mm;
+    color: #ccd1da;
+}
+li {
+    list-style-type: none;
+}
+#side-navbar{
+
+    position: relative ; 
+    
+    float: left;
+    background-color: #616972;
+    box-shadow: 2px 1px 5px black;
+    width: 6cm;
+    height: 15cm;   
+    bottom: 0.7cm;
+    left: 1mm;
+    border-radius: 45px;
+
+}
+#side-navbar-para {
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    right: 8mm;
+    margin-bottom: 3mm;
+
+
+}
+.navbar-item {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin-left: 0.7cm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    padding: 0.5cm;
+    top: 1mm;
+    right: 2mm;
+    width:2.5cm ;
+    box-shadow: 2px 1px 5px #112235;
+
+}
+#insc {
+
+width: 3cm;
+
+}
+#logo {
+    position: relative; 
+    box-shadow: 2px 1px 5px #112235;
+    top: 2mm;
+    right : 0.2cm;
+    color : white;
+    background-color: #112235;
+    padding : 0.5cm;
+    border-radius: 45px;
+}
+.navbar-item:hover {
+
+    background-color: #a7c1e1;
+    cursor: pointer;
+}
+
+li h1{
+    position: relative;
+    color: white;
+    left: 2mm;
+}
+
+li a {
+    color : white ;
+    text-decoration: none;
+    font-size: large;
+}
+#head {
+    position: relative;
+    list-style-type: none;
+    color: white;
+    font-size: x-large;
+    top: 0.6cm;
+    left: 2mm;
+
+}
+#side-navbar-item {
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    right: 1mm;
+    margin-bottom: 3mm;
+
+
+}
+#side-navbar-link{
+    text-align: center;
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    width: 2cm;
+    left:9mm;
+    padding: 2mm;
+    margin-bottom: 3mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    
+}
+#side-navbar-link:hover {
+    cursor: pointer;
+    background-color: #a7c1e1;
+}
+#table {
+    position : relative ; 
+    right : 4cm ;
+
+}
+table ,th,tr,td {
+    border: 1px solid #ccd1da ;
+    border-collapse: collapse;
+    
+} 
+th {
+    background-color: #6d99ce  ;
+    color: white;
+    
+}
+th:hover {
+   background-color:  #a7c1e1 ; 
+
+}

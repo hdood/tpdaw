@@ -1,0 +1,82 @@
+body{
+    background-color : #4b5056 ; 
+    color: white;
+    overflow-x: hidden ;
+    font-family: 'Poppins', sans-serif;
+    
+ 
+}
+/*------------------------------- navbar----------------------*/
+
+.navbar-item {
+    list-style-type : none ; 
+    position: relative; 
+    margin : 0 ;
+    top: 0.3cm;
+    padding: 0.3cm;
+    float: left;
+    margin-left: 5mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+
+  
+}
+ul {
+    display: inline-block;
+    list-style-type: none ;
+    width: 95%;
+    height: 2cm ;
+    border-radius: 1cm;
+  position: relative    ;  
+  background-color: #616972;
+  
+  box-shadow: 2px 1px 5px black;
+  
+}
+li a {
+
+color: white;
+text-decoration: none;
+padding: 0.5cm;
+
+
+
+
+} 
+.navbar-item:hover{
+    background-color: #ccd1da;
+ 
+}
+#msg {
+    text-align: center;
+    font-size: 1cm;
+    width: 25%;
+    border-radius: 45px;
+position: relative;
+background-color: transparent;
+padding: 1.5cm;
+box-shadow: 2px 2px 5px black;
+left: 12cm;
+top: 3cm;
+
+}
+#back {
+    position: relative;
+    left: 2.2cm;
+    text-align: center;
+    background-color: #6d99ce;
+    width: 5cm;
+    border-radius: 45px;
+    box-shadow: 2px 2px 5px black;
+
+}
+#back:hover{
+    background-color:#ccd1da;
+    cursor: pointer;
+}
+#back a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="header"><h1>inscription :</h1></div>
+    <div class="form">
+        <form action="reception.php" method="post">
+        <table>
+
+            <tr>
+                <td>Nom et Prénom : </td>
+                <td><input type="text" name="name"></td>
+                <td>Code Secret :</td>
+                <td><input type="password" name="secret"></td>
+            </tr>
+            <tr>
+                <td>Sexe</td>
+                <td>
+                HOMME : <input type="radio" name="Sexe" value="H"><br>
+                FEMME : <input type="radio" name="Sexe" value="F">
+                </td>
+                <td>Confirmer le code secret :  </td>
+                <td><input type="password" name="secretc    "></td>
+            </tr>
+            <tr>
+                <td>Age : </td>
+                <td><input type="number" name="Age" ></td>
+                <td>Année d'étude :</td>
+                <td>2<sup>éme</sup> Année :<input type="radio" name="Anne" value="2" ><br>
+                    3<sup>éme</sup> Année :<input type="radio" name="Anne" value="3" >
+                </td>
+            </tr>
+            <tr>
+                <td>Adresse : </td>
+                <td><textarea name="Adresse"cols="30" rows="2"></textarea></td>
+                <td>Activités sportives :</td>
+                <td><input type="checkbox" value="Football" name="Act">football <br>
+                <input type="checkbox" value="Handball" name="Act">handball <br>
+                <input type="checkbox" value="Basketball" name="Act">Basketball <br>
+                <input type="checkbox" value="Autres" name="Act">Autres <br></td>
+
+            </tr>
+            <tr>
+                <td>Wilaya :</td>
+                <td>
+                    <select name="Wilaya" >
+                        <option value="Setif">Sétif</option>
+                        <option value="Alger">Alger</option>
+                        <option value="Batna">Batna</option>
+                    </select>
+                </td>
+              
+
+            </tr>
+            <tr>
+                <td>Photos</td>
+                <td><input type="file" name="Photos" ></td>
+                <td><input id="sub"  type="submit" value="envoyer" ></td>
+                <td><input id="res"  type="reset" value="effacer tout" ></td>
+            </tr>
+           
+           
+
+
+
+
+        </table>
+    </form>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

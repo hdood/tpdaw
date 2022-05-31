@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LM.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<script>
+    function solution (){
+    
+    var a = prompt("entrer la valeur de a : "); 
+    var b = prompt("entrer la valeur de b : ");
+    var c = prompt("entrer la valeur de c : ");
+    if(a == 0 )
+    {
+    
+    alert("c'est une equation de premiere degré")
+    return false ; 
+    
+    }
+   
+    var delta = (b*b)-(4*a*c)  ; 
+     
+    if(confirm("afficher delta ? "))
+    {
+    alert("delta = "+delta) ; 
+    }
+    
+    document.getElementById("equa").innerHTML = a+"x<sup>2</sup> +"+b+"x +"+c+"= 0 " ;
+    if (delta < 0 ){
+    
+    document.getElementById("pas").innerHTML = "pas de solution " ;
+    document.getElementById("x1").value =  "";
+    document.getElementById("x2").value = "" ;  
+
+    return false ;  
+    }
+    if ( delta > 0){
+    document.getElementById("x1").value = (-b - (Math.sqrt(delta)))/2*a ;
+    document.getElementById("x2").value = (-b + (Math.sqrt(delta)))/2*a ;  
+    document.getElementById("pas").innerHTML = "Delta = " + delta ;
+
+
+            
+    }
+    }
+    function Reset(){
+        document.getElementById("equa").innerHTML = "" ; 
+    document.getElementById("x1").value =  "";
+    document.getElementById("x2").value = "" ;  
+    document.getElementById("pas").innerHTML = "" ;
+
+    }
+  </script>
+</head>
+<body>
+    <header>
+        <ul id="navbar">
+            <li id="logo" ><i class="fa-solid fa-square-root-variable fa-2xl"></i></i></li>
+            <li class="navbar-item"><a href="login-btn"><i class="fa-solid fa-arrow-right-to-bracket"> </i> <b>Login</b> </a></li>
+            <a href="insc-btn"><li class="navbar-item" id="insc"><i class="fa-solid fa-pen-to-square"></i> <b>Inscription</b></li></a>
+ <a href="index.html">  <li class="navbar-item"> <i class="fa-solid fa-house"></i> <b>Home</b></li></a>
+        </ul>
+    </header>
+    <h1 style="text-align : center  ;">resoudre equation de deuxième degreé</h1>
+    <div id="equa"></div>    
+    <div id="pas"></div>
+    <div ><button class="btn" onclick="return solution()">résoudre</button></div> 
+    <div class="solu"><button class="btn" id="reset" onclick="return Reset()">Reset</button></div> 
+    <div  class="x1"><label for="x">X1 =</label> <input type="text" id="x1" readonly></div>
+    <div  class="x2"><label for="x">X2 =</label> <input type="text" id="x2" readonly></div>
+    
+    <div id="e"></div>
+       
+    
+</body>
+</html>

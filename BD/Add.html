@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Add.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script>
+
+function validation(){
+
+    var noEmp = document.form1.noEmp.value ; 
+    var nomEmp = document.form1.nomEmp.value ; 
+    var fonction = document.form1.fonction.value ; 
+    var noSup = document.form1.noSup.value ; 
+    var embauche = document.form1.embauche.value ; 
+    var salaire = document.form1.salaire.value ; 
+    var comm = document.form1.comm.value ; 
+    var noDept = document.form1.noDept.value ; 
+
+    
+
+    if(noEmp=="hello"){
+        alert("svp entrer le numero d'employer") ; 
+        return false ; 
+    }
+    if(nomEmp==""){
+        alert("svp entrer le nom d'employer") ; 
+        return false ; 
+    }if(fonction==""){
+        alert("svp entrer la fonction d'employer") ; 
+        return false ; 
+    }if(embauche==""){
+        alert("svp entrer la date d'embaucher  ") ; 
+        return false ; 
+    }if(salaire==""){
+        alert("svp entrer la salaire d'employer") ; 
+        return false ; 
+    }if(noDept==""){
+        alert("svp entrer le numero de departement d'employer") ; 
+        return false ; 
+    }
+
+}
+
+
+    </script>
+</head>
+<body>
+
+<ul>
+    <li class="navbar-item" style="background-color:#2c5585 ;" id="main">
+     <a href="index.html"> <i class="fa-solid fa-industry fa-xl"></i></a>  
+    </li>
+    <li class="navbar-item" >
+        <i class="fa-solid fa-user"></i>
+        <a id="new" href="NewEmp.html"><b>Employée</b></a>
+    </li>
+    <li class="navbar-item">
+        <i class="fa-solid fa-building"></i>
+        <a id="newd" href="Dept.php"><b>Departement</b></a></li>
+      </ul> 
+<div class="form">
+    <form action="Add & Del/AddEmp.php" method="post" name="form1" onsubmit="return validation()">
+
+<table>
+<tr>
+    <td><label for="noEmp">numero d'employer :</label> </td>
+    <td><input type="text" name="noEmp" id="noEmp" maxlength="5"></td>
+</tr>
+<tr>
+    <td><label for="nomEmp">nom d'employer</label></td>
+    <td><input type="text" name="nomEmp" id="nomEmp" maxlength="8"></td>
+
+</tr>
+<tr>
+    <td><label for="fonction">fonction :</label></td>
+    <td><input type="text" name="fonction" id="fonction" maxlength="13"></td>
+</tr>
+<tr>
+    <td><label for="noSup">numero de superieur :</label></td>
+    <td> <input type="text" name="noSup" id="noSup" maxlength="5"></td>
+</tr>
+<tr>
+    <td><label for="embauche">embauche :</label> </td>
+    <td><input type="date" name="embauche" id="embauche" maxlength="10"></td>
+</tr>
+<tr>
+    <td><label for="salaire">salaire :</label></td>
+    <td> <input type="text" name="salaire" id="salaire" maxlength="11"></td>
+</tr>
+<tr>
+    <td><label for="comm">commission :</label> </td>
+    <td><input type="text" name="comm" id="comm" maxlength="11"></td>
+</tr>
+<tr>
+    <td><label for="noDept">numero de Departement :</label> </td>
+    <td><input type="text" name="noDept" id="noDept" maxlength="3"></td>
+</tr>
+<tr><td><input type="submit" value="Add" id="sub"></td></tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+ </div>
+        
+   
+

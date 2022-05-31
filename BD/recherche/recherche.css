@@ -1,0 +1,94 @@
+body{
+    background-color : #4b5056 ; 
+    color: white;
+    overflow-x: hidden ;
+    font-family: 'Poppins', sans-serif;
+    
+ 
+}
+/*------------------------------- navbar----------------------*/
+
+.navbar-item {
+    list-style-type : none ; 
+    position: relative; 
+    margin : 0 ;
+    top: 0.3cm;
+    padding: 0.3cm;
+    float: left;
+    margin-left: 5mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+
+  
+}
+ul {
+    display: inline-block;
+    list-style-type: none ;
+    width: 95%;
+    height: 2cm ;
+    border-radius: 1cm;
+  position: relative    ;  
+  background-color: #616972;
+  
+  box-shadow: 2px 1px 5px black;
+  
+}
+li a {
+
+color: blue;
+text-decoration: none;
+padding: 0.5cm;
+
+
+
+
+} 
+.navbar-item:hover{
+    background-color: #ccd1da;
+ 
+}
+
+/* -------------------------- table ---------------------------*/
+
+table{
+    
+    width : 75% ;
+    border-collapse: collapse;
+    position: relative;
+
+
+
+}
+.table-pos{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 14cm;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccd1da ;
+    top: 1cm;
+    left: 5cm;
+    
+    
+
+}
+th,td,tr {
+
+border-bottom: 1px solid #ccd1da ;
+padding: 0.7cm;
+    
+
+}
+th{
+    background-color: #6d99ce   ;
+    color: white;
+    position: sticky;
+    top: 0;
+    
+}
+.back {
+
+    display: inline-block;
+}

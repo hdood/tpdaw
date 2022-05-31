@@ -1,0 +1,182 @@
+body{
+    background-color : #4b5056 ; 
+    color: white;
+    overflow-x: hidden ;
+    font-family: 'Poppins', sans-serif;
+
+    
+ 
+}
+/*------------------------------- navbar----------------------*/
+
+.navbar-item {
+    list-style-type : none ; 
+    position: relative; 
+    margin : 0 ;
+    top: 0.3cm;
+    padding: 0.3cm;
+    float: left;
+    margin-left: 5mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+
+  
+}
+ul {
+    display: inline-block;
+    list-style-type: none ;
+    width: 95%;
+    height: 2cm ;
+    border-radius: 1cm;
+  position: relative    ;  
+  background-color: #616972;
+  
+  box-shadow: 2px 1px 5px black;
+  
+}
+li a {
+
+color: white;
+text-decoration: none;
+padding: 0.5cm;
+
+
+
+
+} 
+.navbar-item:hover{
+    background-color: #ccd1da;
+ 
+}
+
+/* -------------------------- table ---------------------------*/
+
+table{
+    
+    width : 75% ;
+    border-collapse: collapse;
+    position: relative;
+
+
+
+}
+.table-pos{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 14cm;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccd1da ;
+    
+    left: 1cm;
+    
+
+}
+th,td,tr {
+
+border-bottom: 1px solid #ccd1da ;
+padding: 0.7cm;
+    
+
+}
+th{
+    background-color: #6d99ce   ;
+    color: white;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+ /*---------------------------side navbar-------------------------   */
+
+ #head {
+    position: relative;
+    list-style-type: none;
+    color: white;
+    font-size: 9mm;
+    top: 0.6cm;
+    right: 2mm;
+}
+ #side-navbar{
+    position: relative ; 
+    float: left;
+    background-color: #616972;
+    box-shadow: 2px 1px 5px black;
+    width: 6cm;
+    height: 17cm;   
+    bottom: 0.7cm;
+    left: 1mm;
+    border-radius: 45px;
+}
+#side-navbar-para {
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    right: 8mm;
+    margin-bottom: 3mm;
+}
+#side-navbar-item {
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    right: 1mm;
+    margin-bottom: 3mm;
+}
+#side-navbar-link{
+    text-align: center;
+    position : relative ;
+    color: whitesmoke ; 
+    top: 0.5cm;
+    width: 4cm;
+    padding: 2mm;
+    margin-bottom: 3mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+}
+#side-navbar-link:hover {
+    cursor: pointer;
+    background-color: #a7c1e1;
+}
+
+#search{
+position: relative;
+top:0.5cm ;
+right: 0.8cm;
+}
+#search-bar{
+    border-radius: 45px;
+    padding: 3mm;
+
+}
+#radio {
+    border-radius: 45px;
+    position: relative;
+    top: 0.3cm;
+background-color: transparent;
+box-shadow: 2px 2px 5px black;
+width: 6cm;
+text-align: center;
+
+}
+#submit{
+    color : white ;
+    font-size: 5mm;
+    border: none;
+position: relative;
+top : 1cm ; 
+left: 1.7cm;
+padding: 0.5cm;
+border-radius: 45px;
+background-color: #6d99ce;
+}
+#submit:hover{
+    background-color: #a7c1e1;
+    cursor :pointer ;
+}
+.Del{
+    position: relative;
+    top : 2cm ;
+}

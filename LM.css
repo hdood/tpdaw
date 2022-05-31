@@ -1,0 +1,148 @@
+body{
+    background-color: #4b5056;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#navbar{
+    position: relative;
+    top: 0;
+    height: 2cm;
+    width: 97%;
+    background-color: #616972;
+    box-shadow: 2px 1px 5px black;
+    float: left;
+    border-radius: 25px;
+    left: 2mm;
+}
+.navbar-item {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin-left: 0.7cm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    padding: 0.5cm;
+    top: 1mm;
+    right: 2mm;
+    width:2.5cm ;
+    box-shadow: 2px 1px 5px #112235;
+
+}
+#logo {
+    position: relative; 
+    list-style-type :none ;
+    box-shadow: 2px 1px 5px #112235;
+    top: 1mm;
+    right : 0.2cm;
+    color : white;
+    background-color: #112235;
+    padding : 0.5cm;
+    border-radius: 45px;
+    float: left;
+}
+li a {
+    color : white ;
+    text-decoration: none;
+    font-size: large;
+}
+#insc {
+    width: 3cm;
+}
+.navbar-item:hover {
+    background-color: #a7c1e1;
+    cursor: pointer;
+}
+.x1 {
+position: relative;
+padding: 1cm;
+width: 12cm;
+height: 0.9;
+bottom: 3cm;
+left: 2cm;
+text-align: left;
+font-size: 1cm;
+}
+.x2{
+    position: relative;
+padding: 1cm;
+width: 12cm;
+height: 0.9;
+bottom : 6.8cm ;
+left: 18cm;
+text-align: left;
+font-size: 1cm;
+
+
+}
+#equa {
+display: inline;
+position : relative ; 
+padding: 1cm;
+width: 12cm ;
+left:9cm ;
+font-size : 9mm ;   
+text-align: center;
+height : 2cm ; 
+
+
+}
+#pas {
+    color: #e41a31;
+    text-align: center;
+position : relative; 
+padding: 1cm;
+width: 12cm;
+height : 2cm ; 
+left : 12cm ; 
+font-size: 9mm;
+display: inline;
+}
+
+#x1{
+color:white ;    
+padding: 0.5cm ;
+position: relative;
+bottom: 1mm; 
+background-color: transparent ;
+border: none;
+font-size: 7mm; 
+box-shadow: 2px 1px 5px #112235 inset;
+}
+#x2{
+    color: white;    
+    padding: 0.5cm ;
+    position: relative;
+    bottom: 1mm; 
+    background-color: transparent ;
+    border: none;
+    font-size: 7mm; 
+    box-shadow: 2px 1px 5px #112235 inset;
+    }
+
+.btn {
+    font-size:7mm;
+position : relative ; 
+padding : 0.5cm;
+width: 5cm;
+border-radius: 45px;
+color : white ; 
+border: none;
+background-color: #6d99ce;
+top: 4.8cm; 
+left: 10cm;
+box-shadow: 2px 1px 5px #112235; 
+text-align: center;
+}
+.btn:hover {
+
+    background-color: #a7c1e1;
+    cursor: pointer;
+}
+#reset {
+    top: 3cm;
+left: 20cm;
+
+}

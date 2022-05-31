@@ -1,0 +1,83 @@
+body{
+    background-color : #4b5056 ; 
+    color: white;
+    overflow-x: hidden ;
+    font-family: 'Poppins', sans-serif;
+    
+ 
+}
+/*------------------------------- navbar----------------------*/
+
+.navbar-item {
+    list-style-type : none ; 
+    position: relative; 
+    margin : 0 ;
+    top: 0.3cm;
+    padding: 0.3cm;
+    float: left;
+    margin-left: 5mm;
+    background-color: #6d99ce;
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+
+  
+}
+ul {
+    display: inline-block;
+    list-style-type: none ;
+    width: 95%;
+    height: 2cm ;
+    border-radius: 1cm;
+    position: relative    ;  
+    background-color: #616972;
+    box-shadow: 2px 1px 5px black;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5cm;
+} 
+.navbar-item:hover{
+    background-color: #ccd1da;
+ 
+}
+.form {
+    position: relative;
+    width: 40%;
+    height: 20cm ;
+    text-align: center;
+    background-color: #1a3350;
+    border-radius: 1cm;
+    left: 10cm;
+    box-shadow: 2px 1px 5px black;
+}
+tr,td{
+    padding: 0.5cm;
+} 
+table{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+input {
+    padding: 3mm;
+    border-radius: 0.2cm;
+    border: none;
+    font-size: large;
+}
+#sub {
+    background-color: #6d99ce;
+    border-radius:1cm ;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 4cm;
+    padding: 0.5cm;
+    width: 5cm;
+}
+#sub:hover{
+    background-color: #ccd1da;
+    cursor: pointer;
+}
